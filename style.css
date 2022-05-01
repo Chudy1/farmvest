@@ -72,12 +72,33 @@ nav button.first-btn {
   color: #333;
 }
 
+@media screen and (max-width: 800px) {
+  nav a,
+  nav ul,
+  nav div {
+    display: none;
+  }
+}
+
 .nav-header {
   width: 700px;
   text-align: center;
   margin: 140px auto;
 }
 
+@media screen and (max-width: 800px) {
+  .nav-header {
+    width: 100%;
+    text-align: center;
+    margin: 70px auto;
+  }
+
+  .nav-header h1 {
+    line-height: 2.2rem;
+    /* font-size: 10px; */
+    margin-bottom: 1.5rem;
+  }
+}
 .nav-header h1 {
   line-height: 4.2rem;
   font-size: 3.8rem;
@@ -112,6 +133,22 @@ section.testimonials h1 span {
   margin: 150px auto;
 }
 
+@media screen and (max-width: 800px) {
+  .header-partners {
+    display: none;
+    /* margin: 10px; */
+    /* width: 100%; */
+  }
+
+  .header-partners div {
+    width: 30px;
+  }
+
+  .header-partners img {
+    width: 100%;
+  }
+}
+
 .header-partners h1,
 section.testimonials h1 {
   text-align: center;
@@ -138,6 +175,20 @@ section.testimonials h1 {
   align-items: center;
   margin: 1rem auto;
   padding: 1rem auto;
+}
+
+@media screen and (max-width: 800px) {
+  .description .container {
+    display: none;
+  }
+
+  .how-it-works,
+  .faq-container,
+  .works-image,
+  .why-us {
+    display: none;
+    width: 100%;
+  }
 }
 
 .how-it-works,
@@ -237,6 +288,12 @@ section.testimonials {
   margin: 150px auto;
 }
 
+@media screen and (max-width: 800px) {
+  section.testimonials {
+    display: none;
+  }
+}
+
 section.testimonials p.testimonial-paragraph {
   width: 700px;
   margin: 1rem auto 0;
@@ -271,6 +328,12 @@ footer {
   margin: 4rem auto 0;
   position: relative;
   padding-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    width: 100%;
+  }
 }
 
 footer .footer-container {

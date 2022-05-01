@@ -72,7 +72,7 @@ nav button.first-btn {
   color: #333;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   nav a,
   nav ul,
   nav div {
@@ -86,7 +86,7 @@ nav button.first-btn {
   margin: 140px auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .nav-header {
     width: 100%;
     text-align: center;
@@ -133,7 +133,7 @@ section.testimonials h1 span {
   margin: 150px auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .header-partners {
     display: none;
     /* margin: 10px; */
@@ -177,7 +177,7 @@ section.testimonials h1 {
   padding: 1rem auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .description .container {
     display: none;
   }
@@ -288,7 +288,7 @@ section.testimonials {
   margin: 150px auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   section.testimonials {
     display: none;
   }
@@ -330,7 +330,7 @@ footer {
   padding-top: 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   footer {
     width: 100%;
   }

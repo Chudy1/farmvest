@@ -118,6 +118,7 @@ nav button.first-btn {
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
     color: #f4f4f4;
+    padding: 0 20px;
   }
 }
 
@@ -164,7 +165,7 @@ section.testimonials h1 span {
 
 @media screen and (max-width: 1000px) {
   .header-form input {
-    width: 350px;
+    width: 250px;
     margin: 30px auto 2px;
     height: 50px;
     border-radius: 10px;
@@ -173,7 +174,7 @@ section.testimonials h1 span {
 
 @media screen and (max-width: 1000px) {
   .header-form button {
-    width: 400px;
+    width: 290px;
     margin: 2px auto;
     height: 50px;
     border-radius: 10px;
@@ -416,5 +417,6 @@ footer h3 {
   footer h3 {
     font-size: 15px;
     margin-top: 0;
+    padding: 0 15px;
   }
 }

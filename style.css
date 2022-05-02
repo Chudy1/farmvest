@@ -197,14 +197,16 @@ section.testimonials h1 span {
 @media screen and (max-width: 1000px) {
   .header-partners {
     display: none;
-    /* margin: 10px; */
-    /* width: 100%; */
   }
+}
 
+@media screen and (max-width: 1000px) {
   .header-partners div {
     width: 30px;
   }
+}
 
+@media screen and (max-width: 1000px) {
   .header-partners img {
     width: 100%;
   }
@@ -222,7 +224,7 @@ section.testimonials h1 {
 }
 
 .header-partners img {
-  width: 15rem;
+  width: 13rem;
   height: 5rem;
   margin: 20px 20px 0;
 }
